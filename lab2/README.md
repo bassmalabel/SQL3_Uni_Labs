@@ -10,10 +10,13 @@ This lab demonstrates the use of Object-Relational Features in SQL, focusing on 
 - Using TREAT and IS OF to handle subtype-specific queries.
 
 ## Repository Structure
-- **`schema.sql`**: Contains the object type definitions, table creation, and constraints.
-- **`data.sql`**: Includes sample data for the Personnes table.
-- **`queries.sql`**: Contains queries to retrieve and manipulate object-typed data.
-- **`README.md`**: This documentation.
+```
+lab2
+|- schema.sql   # Contains the SQL code for defining types and tables with the constraints
+|- data.sql     # Includes SQL INSERT statements to populate the tables
+|- queries.sql  # Contains queries for retrieving and manipulating the data
+|- readme.md    # This documentation file
+```
 
 ## SQL Concepts Covered
 
@@ -26,10 +29,11 @@ This lab demonstrates the use of Object-Relational Features in SQL, focusing on 
 ### Constraints:
 - Check constraints on age (18 < age < 60).
 - NOT NULL constraint on the city field (adresse.ville).
+- Primary key on the number of person.
 
 ### Advanced Queries:
-- Display object-typed data using **VALUE**.
-- Query specific subtypes with **TREAT** and **IS OF**.
+- Display object-typed data using **VALUE**. 
+- Query specific subtypes with **TREAT** and **IS OF** to access more fields of the sub-types.
 
 ## How to Run
 1. Create the database and user if not already done.

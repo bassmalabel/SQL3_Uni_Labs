@@ -61,8 +61,8 @@ Below are some examples of queries included in the lab:
   ```
 
 ## Next Steps
-This lab establishes the foundational skills necessary for subsequent labs, where we will delve into advanced relational and object-relational
+This lab establishes the foundational skills necessary for subsequent labs, where we delve into advanced relational and object-relational
 
 ---
 
-Feel free to fork this repository and adapt the scripts as needed. For any questions or suggestions, reach out via the course communication channels.
+Feel free to fork this repository and adapt the scripts as needed. For any questions or suggestions feel free to reach out.

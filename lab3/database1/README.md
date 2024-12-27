@@ -36,36 +36,9 @@ database1
 - **specialites:** Stores objects of type `Specialite` with constraints.
 - **etudiants:** Stores objects of type `Etudiant` with constraints.
 
-## Queries
-
-1. Retrieve all school references:
-   ```sql
-   Select ref(e) from ecoles e;
-   ```
-
-2. Retrieve the name of the school associated with a specific specialty:
-   ```sql
-   Select s.ref_ecole.nomEcole from specialites s where s.nomSpecialite = 'Cyber securite';
-   ```
-
-3. Group specialties by their associated school:
-   ```sql
-   Select s.ref_ecole.nomEcole, count(s.nomSpecialite) as number_of_specialites from specialites s group by s.ref_ecole.nomEcole;
-   ```
-
-4. Group students by their associated school:
-   ```sql
-   Select e.ref_spec.ref_ecole.nomEcole as nom_ecole, count(e.nom) as number_of_students from etudiants e group by e.ref_spec.ref_ecole.nomEcole;
-   ```
-
-
 ## Constraints
 
-1. **Primary Key:** Each table has a primary key to ensure data integrity:
-   - `pk_nom` for `ecoles`
-   - `pk_nomspec` for `specialites`
-   - `pk_matricule` for `etudiants`
-
+1. **Primary Key:** Each table has a primary key to ensure data integrity
 2. **Not Null:** Ensures that all references are valid and not null.
 3. We haven't used `scope is` or `references` constraints in this database -database1- because we were not familiarized with those two concepts yet, however you can look them up in the second database -database2- in this lab -lab3-. 
 

@@ -39,7 +39,7 @@ lab4
 ### Constraints:
 
 - **Primary Key:** Ensures unique identification for boats, brands, and sails.
-- **Foreign Key References:** Ensures coherence between parent-child relationships.
+- **References:** Ensures coherence between parent-child relationships.
 - **Nested Table Constraints:** Maintains integrity within nested collections.
 
 ## Queries and Operations:
