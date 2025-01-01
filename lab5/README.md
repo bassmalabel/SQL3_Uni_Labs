@@ -1,7 +1,7 @@
-# Lab 4: Collections
+# Lab 5: Referential Collections
 
 ## Overview
-This lab demonstrates the use of collections of referenecs and nested tables in SQL through a model involving projects, reaseachers and intitutes. The relationships between entities are defined using object types, references, and collections.
+This lab demonstrates the use of collections of referenecs and nested tables in SQL through a model involving projects, reaseachers and institutes. The relationships between entities are defined using object types, references, and collections.
 
 ## Files
 
