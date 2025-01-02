@@ -42,6 +42,5 @@ Delved deeper into `indexing`, including composite and functional indexes, and e
 - Navigate to the desired lab folder.
 - Execute the SQL scripts in the provided order for setup and exploration.
 
-
 ### Author
 Lab created by Bassmala Belguidoum as part of SQL3 University Labs.
