@@ -12,14 +12,14 @@ The labs progress from basic table creation to more advanced topics like `indexi
 ## Lab 1: Basics of SQL and Table Creation
 Introduction to creating `relational tables`, `applying constraints`, and `executing basic SQL queries`.
 
-## Lab 2: Relationships and Constraints
-Focused on defining relationships between tables using `foreign keys` and exploring data integrity with `constraints`.
+## Lab 2: Object types and Inheritence
+Focused on defining Object types using the concepts of Relational Object Database, and exploring the hierarchy between types in a database.
 
-## Lab 3: Advanced Queries
-Covered `advanced SQL queries`, including `aggregate` functions and `subqueries`.
+## Lab 3: Referenced Objects
+Covered the concept of references in a relational object database, which replaces the concept of foreign key in traditional relational databases, and exploring how is this a better solution to represent relationships between different entities.
 
 ## Lab 4: Object Types and Collections
-Introduced `object-relational` features like user-defined object `types` and `collections`.
+Introduced the concept of `collections` and nested tables, to store multiple entities that belong to one record in a table.
 
 ## Lab 5: Referential Collections
 Explored the use of collections of referenecs and nested tables in SQL.
@@ -38,7 +38,7 @@ Delved deeper into `indexing`, including composite and functional indexes, and e
 - **Editor/IDE**: SQL Developer or similar tools compatible with Oracle databases.
 
 # Usage
-- Clone the repository: `git clone https://github.com/your-username/relational-database-labs.git`
+- Clone the repository: `git clone https://github.com/bassmalabel/SQL3_Uni_Labs.git`
 - Navigate to the desired lab folder.
 - Execute the SQL scripts in the provided order for setup and exploration.
 
